@@ -1,5 +1,3 @@
-// Задача 6. Створити компонент - форму для вводу даних кредитної карти (на зразок поданого прикладу). 
-// При вводі “EXPIRY DATE” розділювач “/” додається автоматично.
 <template>
 <credit-form v-model:cardNumber="cardNumberVal"
 v-model:expiryNumber="expiryNumberVal"
